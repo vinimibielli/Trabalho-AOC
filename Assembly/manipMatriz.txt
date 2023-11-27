@@ -1,0 +1,216 @@
+0x10010000     1734951946   543519849  1847618933  1701690051  1763733362  1768256622   154824562  1531775488 
+0x10010020     1752066412  1666932065  1853189231   154819937           0           0           0           0 
+0x10010040              0           0           0           0           0           0           0           0 
+0x10010060              0           0           0           0           0          16           0           0 
+0x10010080              0           0           0           0           0           0           0           0 
+0x100100a0              0           0           0           0           0           0           0           0 
+0x100100c0              0           0           0           0           0           0           0           0 
+0x100100e0              0           0           0           0           0           0           0           0 
+0x10010100              0           0           0           0           0           0           0           0 
+0x10010120              0           0           0           0           0           0           0           0 
+0x10010140              0           0           0           0           0           0           0           0 
+0x10010160              0           0           0           0           0           0           0           0 
+0x10010180              0           0           0           0           0           0           0           0 
+0x100101a0              0           0           0           0           0           0           0           0 
+0x100101c0              0           0           0           0           0           0           0           0 
+0x100101e0              0           0           0           0           0           0           0           0 
+0x10010200              0           0           0           0           0           0           0           0 
+0x10010220              0           0           0           0           0           0           0           0 
+0x10010240              0           0           0           0           0           0           0           0 
+0x10010260              0           0           0           0           0           0           0           0 
+0x10010280              0           0           0           0           0           0           0           0 
+0x100102a0              0           0           0           0           0           0           0           0 
+0x100102c0              0           0           0           0           0           0           0           0 
+0x100102e0              0           0           0           0           0           0           0           0 
+0x10010300              0           0           0           0           0           0           0           0 
+0x10010320              0           0           0           0           0           0           0           0 
+0x10010340              0           0           0           0           0           0           0           0 
+0x10010360              0           0           0           0           0           0           0           0 
+0x10010380              0           0           0           0           0           0           0           0 
+0x100103a0              0           0           0           0           0           0           0           0 
+0x100103c0              0           0           0           0           0           0           0           0 
+0x100103e0              0           0           0           0           0           0           0           0 
+0x10010400              0           0           0           0           0           0           0           0 
+0x10010420              0           0           0           0           0           0           0           0 
+0x10010440              0           0           0           0           0           0           0           0 
+0x10010460              0           0           0           0           0           0           0           0 
+0x10010480              0           0           0           0           0           0           0           0 
+0x100104a0              0           0           0           0           0           0           0           0 
+0x100104c0              0           0           0           0           0           0           0           0 
+0x100104e0              0           0           0           0           0           0           0           0 
+0x10010500              0           0           0           0           0           0           0           0 
+0x10010520              0           0           0           0           0           0           0           0 
+0x10010540              0           0           0           0           0           0           0           0 
+0x10010560              0           0           0           0           0           0           0           0 
+0x10010580              0           0           0           0           0           0           0           0 
+0x100105a0              0           0           0           0           0           0           0           0 
+0x100105c0              0           0           0           0           0           0           0           0 
+0x100105e0              0           0           0           0           0           0           0           0 
+0x10010600              0           0           0           0           0           0           0           0 
+0x10010620              0           0           0           0           0           0           0           0 
+0x10010640              0           0           0           0           0           0           0           0 
+0x10010660              0           0           0           0           0           0           0           0 
+0x10010680              0           0           0           0           0           0           0           0 
+0x100106a0              0           0           0           0           0           0           0           0 
+0x100106c0              0           0           0           0           0           0           0           0 
+0x100106e0              0           0           0           0           0           0           0           0 
+0x10010700              0           0           0           0           0           0           0           0 
+0x10010720              0           0           0           0           0           0           0           0 
+0x10010740              0           0           0           0           0           0           0           0 
+0x10010760              0           0           0           0           0           0           0           0 
+0x10010780              0           0           0           0           0           0           0           0 
+0x100107a0              0           0           0           0           0           0           0           0 
+0x100107c0              0           0           0           0           0           0           0           0 
+0x100107e0              0           0           0           0           0           0           0           0 
+0x10010800              0           0           0           0           0           0           0           0 
+0x10010820              0           0           0           0           0           0           0           0 
+0x10010840              0           0           0           0           0           0           0           0 
+0x10010860              0           0           0           0           0           0           0           0 
+0x10010880              0           0           0           0           0           0           0           0 
+0x100108a0              0           0           0           0           0           0           0           0 
+0x100108c0              0           0           0           0           0           0           0           0 
+0x100108e0              0           0           0           0           0           0           0           0 
+0x10010900              0           0           0           0           0           0           0           0 
+0x10010920              0           0           0           0           0           0           0           0 
+0x10010940              0           0           0           0           0           0           0           0 
+0x10010960              0           0           0           0           0           0           0           0 
+0x10010980              0           0           0           0           0           0           0           0 
+0x100109a0              0           0           0           0           0           0           0           0 
+0x100109c0              0           0           0           0           0           0           0           0 
+0x100109e0              0           0           0           0           0           0           0           0 
+0x10010a00              0           0           0           0           0           0           0           0 
+0x10010a20              0           0           0           0           0           0           0           0 
+0x10010a40              0           0           0           0           0           0           0           0 
+0x10010a60              0           0           0           0           0           0           0           0 
+0x10010a80              0           0           0           0           0           0           0           0 
+0x10010aa0              0           0           0           0           0           0           0           0 
+0x10010ac0              0           0           0           0           0           0           0           0 
+0x10010ae0              0           0           0           0           0           0           0           0 
+0x10010b00              0           0           0           0           0           0           0           0 
+0x10010b20              0           0           0           0           0           0           0           0 
+0x10010b40              0           0           0           0           0           0           0           0 
+0x10010b60              0           0           0           0           0           0           0           0 
+0x10010b80              0           0           0           0           0           0           0           0 
+0x10010ba0              0           0           0           0           0           0           0           0 
+0x10010bc0              0           0           0           0           0           0           0           0 
+0x10010be0              0           0           0           0           0           0           0           0 
+0x10010c00              0           0           0           0           0           0           0           0 
+0x10010c20              0           0           0           0           0           0           0           0 
+0x10010c40              0           0           0           0           0           0           0           0 
+0x10010c60              0           0           0           0           0           0           0           0 
+0x10010c80              0           0           0           0           0           0           0           0 
+0x10010ca0              0           0           0           0           0           0           0           0 
+0x10010cc0              0           0           0           0           0           0           0           0 
+0x10010ce0              0           0           0           0           0           0           0           0 
+0x10010d00              0           0           0           0           0           0           0           0 
+0x10010d20              0           0           0           0           0           0           0           0 
+0x10010d40              0           0           0           0           0           0           0           0 
+0x10010d60              0           0           0           0           0           0           0           0 
+0x10010d80              0           0           0           0           0           0           0           0 
+0x10010da0              0           0           0           0           0           0           0           0 
+0x10010dc0              0           0           0           0           0           0           0           0 
+0x10010de0              0           0           0           0           0           0           0           0 
+0x10010e00              0           0           0           0           0           0           0           0 
+0x10010e20              0           0           0           0           0           0           0           0 
+0x10010e40              0           0           0           0           0           0           0           0 
+0x10010e60              0           0           0           0           0           0           0           0 
+0x10010e80              0           0           0           0           0           0           0           0 
+0x10010ea0              0           0           0           0           0           0           0           0 
+0x10010ec0              0           0           0           0           0           0           0           0 
+0x10010ee0              0           0           0           0           0           0           0           0 
+0x10010f00              0           0           0           0           0           0           0           0 
+0x10010f20              0           0           0           0           0           0           0           0 
+0x10010f40              0           0           0           0           0           0           0           0 
+0x10010f60              0           0           0           0           0           0           0           0 
+0x10010f80              0           0           0           0           0           0           0           0 
+0x10010fa0              0           0           0           0           0           0           0           0 
+0x10010fc0              0           0           0           0           0           0           0           0 
+0x10010fe0              0           0           0           0           0           0           0           0 
+
+ Address    Code        Basic                     Source
+
+0x00400000  0x3c010000  lui $1,0              11           subu     $sp, $sp, 32     # o frame de pilha tenm 32 bytes
+0x00400004  0x34210020  ori $1,$1,32               
+0x00400008  0x03a1e823  subu $29,$29,$1            
+0x0040000c  0xafbf0014  sw $31,20($29)        12           sw     $ra, 20($sp)     # salva o endereço de retorno
+0x00400010  0xafbe0010  sw $30,16($29)        13           sw     $fp, 16($sp)     # salva o ponteiro do frame
+0x00400014  0x27bd001c  addiu $29,$29,28      14           addiu     $sp, $sp, 28      # prepara o ponteiro do frame            
+0x00400018  0x0c10000c  jal 0x00400030        16               jal matriz_preenche
+0x0040001c  0x0c10002f  jal 0x004000bc        17               jal matriz_imprime 
+0x00400020  0x8fbf0014  lw $31,20($29)        20           lw     $ra, 20($sp)       # restaura o endereço
+0x00400024  0x8fbe0010  lw $30,16($29)        21           lw     $fp, 16($sp)       # restaura o frame pointer
+0x00400028  0x27bd0020  addiu $29,$29,32      22           addiu     $sp, $sp, 32       # remove do frame        
+0x0040002c  0x08100052  j 0x00400148          23           j FIM                       # finaliza o programa        
+0x00400030  0x3c010000  lui $1,0              27           subu  $sp, $sp, 32   # reserva o espaço do frame ($sp)    
+0x00400034  0x34210020  ori $1,$1,32               
+0x00400038  0x03a1e823  subu $29,$29,$1            
+0x0040003c  0xafbf0014  sw $31,20($29)        28           sw    $ra, 20($sp)   # salva o endereço de retorno ($ra)    
+0x00400040  0xafbe0010  sw $30,16($29)        29           sw    $fp, 16($sp)   # salva o frame pointer ($fp)    
+0x00400044  0x27be001c  addiu $30,$29,28      30           addiu $fp, $sp, 28   # prepara o frame pointer    
+0x00400048  0xafc40000  sw $4,0($30)          31           sw    $a0, 0($fp)    # salva o argumento ($a0)    
+0x0040004c  0x24080004  addiu $8,$0,4         33           li       $t0, 4       # $t0: número de linhas
+0x00400050  0x24090004  addiu $9,$0,4         34                  li       $t1, 4       # $t1: número de colunas
+0x00400054  0x00008021  addu $16,$0,$0        35               move     $s0, $zero   # $s0: contador da linha
+0x00400058  0x00008821  addu $17,$0,$0        36               move     $s1, $zero   # $s1: contador da coluna
+0x0040005c  0x00005021  addu $10,$0,$0        37               move     $t2, $zero   # $t2: valor a ser lido/armazenado
+0x00400060  0x02090018  mult $16,$9           44           mult     $s0, $t1    # $s2 = linha * numero de colunas 
+0x00400064  0x00009012  mflo $18              45               mflo     $s2            # move o resultado da multiplicação do registrador lo para $s2
+0x00400068  0x02519020  add $18,$18,$17       46               add      $s2, $s2, $s1  # $s2 += contador de coluna
+0x0040006c  0x00129080  sll $18,$18,2         47                  sll      $s2, $s2, 2    # $s2 *= 4 (deslocamento 2 bits para a esquerda) para deslocamento de byte       
+0x00400070  0x24020004  addiu $2,$0,4         50               li     $v0, 4        
+0x00400074  0x3c011001  lui $1,4097           51           la     $a0, m1        
+0x00400078  0x34240000  ori $4,$1,0                
+0x0040007c  0x0000000c  syscall               52           syscall                        
+0x00400080  0x24020005  addiu $2,$0,5         53           li     $v0, 5        
+0x00400084  0x0000000c  syscall               54           syscall            
+0x00400088  0x00025021  addu $10,$0,$2        55           move     $t2, $v0        
+0x0040008c  0x3c011001  lui $1,4097           58           sw    $t2, M($s2)         
+0x00400090  0x00320821  addu $1,$1,$18             
+0x00400094  0xac2a0034  sw $10,52($1)              
+0x00400098  0x214a0001  addi $10,$10,1        61               addi     $t2, $t2, 1 
+0x0040009c  0x22310001  addi $17,$17,1        67               addi    $s1, $s1, 1            # incrementa contador da coluna
+0x004000a0  0x1629ffef  bne $17,$9,-17        68               bne     $s1, $t1, popula_matriz       # não é o fim da linha então LOOP
+0x004000a4  0x00008821  addu $17,$0,$0        69               move    $s1, $zero             # reseta o contador da coluna
+0x004000a8  0x22100001  addi $16,$16,1        70               addi    $s0, $s0, 1            # incrementa o contador da linha
+0x004000ac  0x1608ffec  bne $16,$8,-20        71               bne     $s0, $t0, popula_matriz       # não é o fim da matriz então LOOP
+0x004000b0  0x03e00008  jr $31                72               jr     $ra
+0x004000b4  0x02201020  add $2,$17,$0         75       add     $v0, $s1, $zero # retorna para quem chamou    
+0x004000b8  0x03e00008  jr $31                76       jr     $ra    
+0x004000bc  0x3c010000  lui $1,0              81       subu  $sp, $sp, 32   # reserva o espaço do frame ($sp)    
+0x004000c0  0x34210020  ori $1,$1,32               
+0x004000c4  0x03a1e823  subu $29,$29,$1            
+0x004000c8  0xafbf0014  sw $31,20($29)        82       sw    $ra, 20($sp)   # salva o endereço de retorno ($ra)    
+0x004000cc  0xafbe0010  sw $30,16($29)        83       sw    $fp, 16($sp)   # salva o frame pointer ($fp)    
+0x004000d0  0x27be001c  addiu $30,$29,28      84       addiu $fp, $sp, 28   # prepara o frame pointer    
+0x004000d4  0xafc40000  sw $4,0($30)          85       sw    $a0, 0($fp)    # salva o argumento ($a0)    
+0x004000d8  0x24080004  addiu $8,$0,4         87       li       $t0, 4       # $t0: número de linhas
+0x004000dc  0x24090004  addiu $9,$0,4         88              li       $t1, 4       # $t1: número de colunas
+0x004000e0  0x00008021  addu $16,$0,$0        89              move     $s0, $zero   # $s0: contador da linha
+0x004000e4  0x00008821  addu $17,$0,$0        90           move     $s1, $zero   # $s1: contador da coluna
+0x004000e8  0x00005021  addu $10,$0,$0        91           move     $t2, $zero   # $t2: valor a ser lido/armazenado
+0x004000ec  0x02090018  mult $16,$9           95           mult     $s0, $t1    # $s2 = linha * numero de colunas 
+0x004000f0  0x00009012  mflo $18              96               mflo     $s2            # move o resultado da multiplicação do registrador lo para $s2
+0x004000f4  0x02519020  add $18,$18,$17       97               add      $s2, $s2, $s1  # $s2 += contador de coluna
+0x004000f8  0x00129080  sll $18,$18,2         98               sll      $s2, $s2, 2    # $s2 *= 4 (deslocamento 2 bits para a esquerda) para deslocamento de byte    
+0x004000fc  0x3c011001  lui $1,4097           101          lw    $t2, M($s2)         
+0x00400100  0x00320821  addu $1,$1,$18             
+0x00400104  0x8c2a0034  lw $10,52($1)              
+0x00400108  0x24020004  addiu $2,$0,4         104          li     $v0, 4   
+0x0040010c  0x3c011001  lui $1,4097           105          la     $a0, m2
+0x00400110  0x3424001d  ori $4,$1,29               
+0x00400114  0x0000000c  syscall               106          syscall     
+0x00400118  0x24020001  addiu $2,$0,1         107          li     $v0,1    
+0x0040011c  0x000a2021  addu $4,$0,$10        108          move     $a0, $t2
+0x00400120  0x0000000c  syscall               109          syscall 
+0x00400124  0x214a0001  addi $10,$10,1        112              addi     $t2, $t2, 1 
+0x00400128  0x22310001  addi $17,$17,1        114                addi     $s1, $s1, 1            # increment column counter
+0x0040012c  0x1629ffef  bne $17,$9,-17        115          bne      $s1, $t1, imprime_matriz       # not at end of row so loop back
+0x00400130  0x00008821  addu $17,$0,$0        116          move     $s1, $zero             # reset column counter
+0x00400134  0x22100001  addi $16,$16,1        117          addi     $s0, $s0, 1            # increment row counter
+0x00400138  0x1608ffec  bne $16,$8,-20        118          bne      $s0, $t0, imprime_matriz      # not at end of matrix so loop back
+0x0040013c  0x03e00008  jr $31                119          jr $ra
+0x00400140  0x02201020  add $2,$17,$0         122      add     $v0, $s1, $zero # retorna para quem chamou    
+0x00400144  0x03e00008  jr $31                123      jr     $ra
+0x00400148  0x2402000a  addiu $2,$0,10        126          li $v0, 10        
+0x0040014c  0x0000000c  syscall               127          syscall                 
+
