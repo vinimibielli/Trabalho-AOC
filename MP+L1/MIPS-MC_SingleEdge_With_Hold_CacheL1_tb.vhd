@@ -307,7 +307,7 @@ architecture cpu_tb of cpu_tb is
     signal hit, ce_nMP, we_nMP, oe_nMP, bwMP: std_logic;
     signal addressMP, dataMP: wires32;
     
-    signal hold_MP : wires8 := (others => '0');
+    signal hold_MP : std_logic_vector(2 downto 0);
     
     file ARQ : TEXT open READ_MODE is "Test_Program_Allinst_MIPS_MCS.txt";
  
