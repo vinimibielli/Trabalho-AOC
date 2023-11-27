@@ -155,7 +155,7 @@ architecture cpu_tb of cpu_tb is
     signal Dce_n, Dwe_n, Doe_n, Ice_n, Iwe_n, Ioe_n, ck, rst, rstCPU, hold,
            go_i, go_d, ce, rw, bw: std_logic;
     
-    signal hold_MP : wires8 := (others => '0');
+    signal hold_MP : std_logic_vector(2 downto 0) := (others => '0');
     
     file ARQ : TEXT open READ_MODE is "Test_Program_Allinst_MIPS_MCS.txt";
  
@@ -187,7 +187,6 @@ begin
                         hold <= '0';
                     end if;
                 end if;
-            end if;
                 end process;
                                    
     -- sinais para adaptar a mem�ria de dados ao processador ---------------------------------------------
