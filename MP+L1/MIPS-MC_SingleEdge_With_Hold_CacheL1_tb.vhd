@@ -13,7 +13,7 @@ package aux_functions is
    constant CACHE_SIZE  : integer := 32;   
    type memory is array (0 to MEMORY_SIZE) of wires8;
    type cache  is array (0 to 7)  of wires32;
-   type tag    is array (0 to CACHE_SIZE)  of std_logic_vector(25 downto 0);   
+   type tagA    is array (0 to 7)  of std_logic_vector(25 downto 0);   
 
    constant TAM_LINHA : integer := 200;
    constant TAM_LINHA_CACHE : integer := 4;
@@ -157,23 +157,24 @@ entity CACHE_L1 is
         address: in wires32;   
         data: inout wires32;
         addressMP, dataMP: inout wires32;
-        ce_nMP, we_nMP, oe_nMP, bwMP: out std_logic;);
+        ce_nMP, we_nMP, oe_nMP, bwMP, hitout : out std_logic);
 end CACHE_L1;
 
 architecture CACHE_L1 of CACHE_L1 is
     signal tmp_address: wires32;
     signal CACHE : cache;
     signal tag   : std_logic_vector(25 downto 0);
-    signal tagsCACHE : tag := (others => (others => '0'));
+    signal tagsCACHE : tagA ;
     signal linha : std_logic_vector(1 downto 0);
     signal palavra : std_logic_vector(2 downto 0);
     signal bitValidade : std_logic_vector(3 downto 0);
     signal cacheLocation, linhaLocation, palavraLocation : integer;
-    signal 
+    signal hit : std_logic;
 
 
     begin
     
+    hitout <= hit;
     tmp_address <= address - START_ADDRESS;   --  offset do endereamento  --
 
     process(ck, rst)
@@ -184,7 +185,6 @@ architecture CACHE_L1 of CACHE_L1 is
                 palavra <= (others => '0');
                 bitValidade <= (others => '0');
             elsif(ck'event and ck = '1') then
-                begin
                     palavra <= data(2 downto 0);
                     linha <= data(5 downto 4);
                     tag <= data(31 downto 6);
@@ -211,15 +211,15 @@ architecture CACHE_L1 of CACHE_L1 is
         process(ck, rst, ce_n, we_n, oe_n, bw)
         begin
             if(rst = '1') then
-                
+                hit <= '0';
             elsif(ck'event and ck = '1') then
-                begin
+             
                    if(ce_n = '0' and we_n = '0') then
-                        begin
+                    
 
                            case linha is
                                 when "00" =>
-                                if(tagCACHE(cacheLocation) = tag and bitValidade(0) = '1') then
+                                if(tagsCACHE(cacheLocation) = tag and bitValidade(0) = '1') then
                                     hit <= '1';
                                 else
                                     hit <= '0';
@@ -228,7 +228,7 @@ architecture CACHE_L1 of CACHE_L1 is
                                     bitValidade(0) <= '1';
                                 end if;
                                 when "01" =>
-                                if(tagCACHE(cacheLocation) = tag and bitValidade(1) = '1') then
+                                if(tagsCACHE(cacheLocation) = tag and bitValidade(1) = '1') then
                                     hit <= '1';
                                 else
                                     hit <= '0';
@@ -237,7 +237,7 @@ architecture CACHE_L1 of CACHE_L1 is
                                     bitValidade(1) <= '1';
                                 end if;
                                 when "10" =>
-                                if(tagCACHE(cacheLocation) = tag and bitValidade(2) = '1') then
+                                if(tagsCACHE(cacheLocation) = tag and bitValidade(2) = '1') then
                                     hit <= '1';
                                 else
                                     hit <= '0';
@@ -246,7 +246,7 @@ architecture CACHE_L1 of CACHE_L1 is
                                     bitValidade(2) <= '1';
                                 end if;
                                 when others =>
-                                if(tagCACHE(cacheLocation) = tag and bitValidade(3) = '1') then
+                                if(tagsCACHE(cacheLocation) = tag and bitValidade(3) = '1') then
                                     hit <= '1';
                                 else
                                     hit <= '0';
@@ -271,18 +271,18 @@ architecture CACHE_L1 of CACHE_L1 is
 	   end if;
 	end process;
 
-    process (ce_n, oe_n, ck, tmp_address, data, hit)   -- processo para ler da cache
-   begin
+    process (ce_n, oe_n, ck, tmp_address, data)   -- processo para ler da cache
+    begin
       if ce_n='0' and oe_n='0' and ck'event and ck='0' then
          if hit = '1' then
-            data <= CACHE(cache_add);
+            data <= CACHE(cacheLocation);
          else
             data <= dataMP;
          end if;
       end if;
    end process;
 
-    end CACHE_L1
+    end CACHE_L1;
 
 -------------------------------------------------------------------------
 --  Testebench para simular a CPU do processador
@@ -304,7 +304,7 @@ architecture cpu_tb of cpu_tb is
     signal Dce_n, Dwe_n, Doe_n, Ice_n, Iwe_n, Ioe_n, ck, rst, rstCPU, hold,
            go_i, go_d, ce, rw, DCce_n, DCwe_n, DCoe_n, bw: std_logic;
 
-    signal ce_nMP, we_nMP, oe_nMP, bwMP: std_logic;
+    signal hit, ce_nMP, we_nMP, oe_nMP, bwMP: std_logic;
     signal addressMP, dataMP: wires32;
     
     signal hold_MP : wires8 := (others => '0');
@@ -342,7 +342,6 @@ begin
                         hold <= '0';
                     end if;
                 end if;
-            end if;
                 end process;
                                    
     -- sinais para adaptar a mem�ria de dados ao processador ---------------------------------------------
